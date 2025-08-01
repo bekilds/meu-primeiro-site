@@ -10,5 +10,7 @@ h1,
 }
 
 header {
-    background-color:rgb(185, 24, 131)
+    background-color:rgb(173, 37, 128);
+    color: azure;
+    padding: 60px;
 }
