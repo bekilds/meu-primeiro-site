@@ -34,6 +34,7 @@ about-section {
     margin: 0 auto;
     padding: 40px;
     border-radius: 12px;
+    margin-bottom: 60px;
 }
 
 
@@ -43,9 +44,39 @@ about-section {
     border-bottom: 2px solid rgb(189, 64, 126);
  }
 
+
+
  
  #texto-sobre-mim { 
     font-size: 30px;
     width: 80%;
     background-color: rgb(250, 196, 247);
 
+ }
+
+ ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 12px;
+ }
+ 
+ li{
+    background-color: rgb(255, 225, 241);
+    padding: 12px;
+    border-left: 4px solid rgb(233, 68, 137);
+    font-size: 16px;
+    min-width: 80px;
+ }
+ li:hover {
+    background-color: blanchedalmond;
+    transform: translateX(5px);
+    transition: all 0.3s ease;
+ }
+
+ #titulo-hobbies { 
+    font-size: 40px;
+    border-bottom: 2px solid rgb(248, 91, 156);
+    margin-bottom: 20px;
+ }
+ 
