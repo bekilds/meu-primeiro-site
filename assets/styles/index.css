@@ -1,16 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&display=swap');
 /* Reset do CSS */
 * {
     margin: 0px;
     padding: 0;
+    box-sizing: border-box;
 }
 
-h1,
- p {
-    text-align: center;
+/*configuracoes gerais*/
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: "Caprasimo", serif;
 }
 
 header {
     background-color:rgb(173, 37, 128);
     color: azure;
     padding: 60px;
+    text-align: center;
 }
+main{
+     background-color:rgb(231, 174, 212) ;
+     flex: 1;
+     padding: 48px 38px;
+     width: 100%;
+}
+
+about-section {
+    display: block;
+    background-color:cornsilk;
+    width: 80%;
+    margin: 0 auto;
+    padding: 40px;
+    border-radius: 12px;
+}
+
+
+ #titulo-sobre-mim { 
+    font-size: 40px;
+    width: 80%;
+    border-bottom: 2px solid rgb(189, 64, 126);
+ }
+
+ 
+ #texto-sobre-mim { 
+    font-size: 30px;
+    width: 80%;
+    background-color: rgb(250, 196, 247);
+
