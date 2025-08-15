@@ -15,7 +15,7 @@ body {
 }
 
 header {
-    background-color:rgb(173, 37, 128);
+    background-color:rgb(233, 56, 138);
     color: azure;
     padding: 60px;
     text-align: center;
@@ -41,7 +41,7 @@ about-section {
  #titulo-sobre-mim { 
     font-size: 40px;
     width: 80%;
-    border-bottom: 2px solid rgb(189, 64, 126);
+    border-bottom: 2px solid rgb(219, 31, 125);
  }
 
 
@@ -125,4 +125,17 @@ about-section {
    color: aliceblue;
    transform: translateY(-2px);
 
+
+ }
+
+ footer {
+   background-color: #db1e86;
+   color: aliceblue;
+   text-align: center;
+   padding: 2rem;
+   width: 100%;
+ }
+
+ footer p {
+   font-size: 1rem;
  }
