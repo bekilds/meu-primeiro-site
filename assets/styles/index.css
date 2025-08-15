@@ -54,6 +54,14 @@ about-section {
 
  }
 
+ hobbies {
+   display:block;
+   background-color: rgb(248, 236, 217);
+   width: 80%;
+   margin : 0 auto;
+   padding: 40px;
+   border-radius: 12px;
+ }
  ul {
     list-style: none;
     padding: 0;
@@ -64,12 +72,12 @@ about-section {
  li{
     background-color: rgb(255, 225, 241);
     padding: 12px;
-    border-left: 4px solid rgb(233, 68, 137);
+    border-left: 4px solid rgb(231, 25, 111);
     font-size: 16px;
     min-width: 80px;
  }
  li:hover {
-    background-color: blanchedalmond;
+    background-color: rgb(245, 166, 193);
     transform: translateX(5px);
     transition: all 0.3s ease;
  }
@@ -79,4 +87,42 @@ about-section {
     border-bottom: 2px solid rgb(248, 91, 156);
     margin-bottom: 20px;
  }
+
+ contact {
+   display:block;
+   background-color: rgb(248, 236, 217);
+   width: 80%;
+   margin : 0 auto;
+   padding: 40px;
+   border-radius: 12px;
+   margin-top: 40px;
+ }
  
+ contact h2 { 
+   margin-bottom: 8px;
+   font-size: 30px;
+   text-align: center;
+ }
+
+ contact p {
+   text-align: center;
+   font-size: 22px;
+ }
+
+ contact a {
+   color: #db1e86;
+   text-decoration: none;
+   padding: 0.5rem 1rem;
+   margin: 0 0.5rem;
+   border: 2px solid #ec3a9c;
+   border-radius: 25px;
+   display: inline-block;
+   transition: all 0.3s ease;
+ }
+
+ contact a:hover {
+   background-color: #db1e86;
+   color: aliceblue;
+   transform: translateY(-2px);
+
+ }
